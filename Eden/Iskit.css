@@ -1,0 +1,139 @@
+/*-- body total --*/
+body{
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	box-sizing: border-box;
+}
+/*-- Table of contents --*/
+.dropbtn, #head{
+	display: block;
+	background-color: #bd1d1d;
+	float: right;	
+	margin-left: 0px;
+	width: 12.5%;
+	text-decoration: none;
+	font-size: 125%;
+	height: 50px;
+	padding: 0px;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+}
+li{
+	list-style: none;
+}
+header{
+	clear: both;
+}
+#head{
+	font-weight: bold;
+	color: #0C0C0C;
+	font-style: italic;
+	font-size: 142%;
+}
+section>ul{
+	margin: 0px;	
+	padding: 0px;
+}
+#contents{
+	position: sticky;
+	top: 0;
+	border: 1px solid black;
+}
+.dropdown {
+  position: relative;
+  width: 100%;
+}
+.dropdown-content {
+	display: none;
+	position: sticky;
+	background-color: #f1f1f1;
+	width: 12.5%;
+	padding: 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;	
+}
+.dropdown-content a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	border-bottom: 0.5px;
+	height: 100%;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+#sec1{
+	position: absolute;
+	top: 50px;
+	left: 75%;
+}
+#sec2{
+	position: absolute;
+	top: 50px;
+	left: 62.5%;
+}
+#sec3{
+	position: absolute;
+	top: 50px;
+	left: 50%;
+}
+#sec4{
+	position: absolute;
+	top: 50px;
+	left: 37.5%;
+}
+#sec5{
+	position: absolute;
+	top: 50px;
+	left: 25%;
+}
+#sec6{
+	position: absolute;
+	top: 50px;
+	left: 12.5%;
+}
+#sec7{
+	position: absolute;
+	top: 50px;
+}
+/*-- text --*/
+#body-text{
+	margin: 8px 8px 8px 8px;
+}
+header{
+	text-align: center;
+    text-decoration: underline;
+    display: block;
+    font-size: 160%;
+    background-color: #fd8c8c8a;
+    border-style: outset;
+}
+h1{
+	margin-bottom: 2%;
+}
+h2,h3{
+	text-align: right;
+	text-decoration: underline;
+	clear: right;
+	background-color: #e82222c2;
+	padding: 10px;
+}
+article{
+	display: block;
+	float: right;
+	width: 60%;
+	clear: right;
+	padding-left: 40%;
+	text-align: right;
+
+}
+#section1-1>img{
+	display: block;
+	float: left;
+}
+#section1-1>article{padding-left: 0%;}
